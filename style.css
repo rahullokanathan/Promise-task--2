@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background-color: skyblue;
+    font-family: "Courier New", Courier, monospace;
+  }
+  hr {
+    border-top: 0.3rem dotted black;
+    width: 10%;
+  }
+  .heading {
+    font-family: "Akaya Telivigala", cursive;
+    font-size: 4rem;
+    margin: 2%;
+  }
+  .card {
+    padding: 2%;
+    background-color: black;
+    color: whitesmoke;
+  }
+  .card-img-top {
+    background-color: rgb(223, 187, 120);
+  }

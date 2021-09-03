@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading text-center mt-5 mb-2">Weather App</h1>
+      <div class="form-group">
+        <input
+          class="form-control input mt-3 mb-3 w-50 mx-auto"
+          type="text"
+          placeholder="Enter the city name"
+          autocomplete="off"
+        />
+        <button
+          class="btn btn-dark btn-lg btn-block w-50 mx-auto"
+          onclick="displayData()"
+        >
+          Search
+        </button>
+        <hr />
+      </div>
+
+      <div class="card mt-5 mb-5 mx-auto d-none" style="width: 20rem">
+        <img class="card-img-top" src="" alt="Card image cap" />
+        <div class="card-body">
+          <h1 class="card-title font-weight-bold"></h1>
+          <h3 class="card-subtitle mb-2 font-weight-bold"></h3>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
